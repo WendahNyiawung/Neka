@@ -27,8 +27,8 @@ export default {
                 {src:require('../static/img/contract.jpg'), title:'Contract negotiations', p:' We have lots of skills to generate maximum compensation for our clients. '},
                 {src:require('../static/img/marketing.jpg'), title:'Marketing and brand development ', p:' We create appealing and unique brands for our clients, helping them have a strong social  media presence and endorsements. '},
                 {src:require('../static/img/mentor.jpg'), title:'Mentorship', p:' Inspire and motivate our clients, to be productive and adaptive during their professional careers. '},
-                {src:require('../static/img/mentor.jpg'), title:'Financial and legal services ', p:'We have a strong financial and legal team that works tirelessly to meet the financial and legal needs of our clients.'},
-                {src:require('../static/img/financial.jpg'), title:'Post career services', p:'We provide strategic planning and counseling in preparation for our client’s post-career. '},
+                {src:require('../static/img/financial.jpg'), title:'Financial and legal services ', p:'We have a strong financial and legal team that works tirelessly to meet the financial and legal needs of our clients.'},
+                {src:require('../static/img/post.jpg'), title:'Post career services', p:'We provide strategic planning and counseling in preparation for our client’s post-career. '},
                  {src:require('../static/img/team.jpg'), title:'Teams ', p:'We have a committed and visionary management team taking into account every detail of a pro-life. Which includes; contract negotiations, social media and brand marketing, finance, and investment choices.'},
             ]
         }

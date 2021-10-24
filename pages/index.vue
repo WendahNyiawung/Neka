@@ -9,7 +9,7 @@
          
    <slide>
      
-         <div class="slide-1 h-126 lg:h-128 ">
+    <div class="slide-1 h-126 lg:h-128 ">
    <div class="container mx-auto py-40 lg:py-42">
     <div class="flex items-center justify-between">
       <div class="d invisible"></div>
@@ -44,6 +44,9 @@
      <div class="bg-gray-100 py-12">
        <Services/>
      </div>
+    <div class="py-6">
+       <NewsLetter/>
+    </div>
      
 <!--
 <div class="bg-gray-100">
