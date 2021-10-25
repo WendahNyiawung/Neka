@@ -1,8 +1,7 @@
 <template>
     <div>
-        
     <footer class="bg-white dark:bg-gray-800">
-        <div class="container px-6 py-4 mx-auto">
+        <div class="container px-6 py-8 mx-auto">
             <div class="lg:flex">
                 <div class="w-full -mx-6 lg:w-2/5">
                     <div class="px-6">
@@ -42,21 +41,6 @@
                             <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">community</a>
                             <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Careers</a>
                         </div>
-
-                        <div>
-                            <h3 class="text-gray-700 uppercase dark:text-white">Blog</h3>
-                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Tec</a>
-                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Music</a>
-                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Videos</a>
-                        </div>
-
-                        <div>
-                            <h3 class="text-gray-700 uppercase dark:text-white">Products</h3>
-                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Mega cloud</a>
-                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Aperion UI</a>
-                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Meraki UI</a>
-                        </div>
-
                         <div>
                             <h3 class="text-gray-700 uppercase dark:text-white">Contact</h3>
                             <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+1 526 654 8965</span>

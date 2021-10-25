@@ -7,8 +7,8 @@
      <div class="grid grid-cols-1 gap-2 mt-4 sm:grid-cols-2  lg:px-48">
          <div v-for="vision in vision" :key="vision.title" class="mx-4 mt-3" >
           <div class="flex flex-col lg:flex-row max-w-md mx-auto overflow-hidden bg-white rounded-lg lg:h-40 shadow-lg dark:bg-gray-800">
-               <img :src="vision.src" alt="talents" class="object-cover h-48 lg:w-2/4 bg-cover">
-          <div class="lg:w-3/4 px-2 py-3 lg:py-0">
+               <img :src="vision.src" alt="talents" class="object-cover h-48 lg:w-2/6 bg-cover">
+          <div class="lg:w-4/6 px-3 py-3 lg:py-0">
                <h2 class="font-primary lg:mt-1 text-xl leading-tighter leading-7 text-gray-800">{{vision.title}}</h2>
             <p class="text text-sm text-left text-gray-700">
                 {{vision.p}}

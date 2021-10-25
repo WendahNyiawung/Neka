@@ -1,14 +1,6 @@
 <template>
 <div>
-  <div class="z z-20">
-
-  </div>
- <div class="bg-gray-200 z-10">
-   
- <carousel  v-bind="options">
-         
-   <slide>
-     
+ <div class="bg-gray-200 slide-wrapper">
     <div class="slide-1 h-126 lg:h-128 ">
    <div class="container mx-auto py-40 lg:py-42">
     <div class="flex items-center justify-between">
@@ -22,29 +14,15 @@
     </div>
    </div>
   </div>
-   </slide>
-   <slide>
-       <Nav/>
-         <div class="slide-2 h-126 lg:h-128 ">
-   <div class="container mx-auto py-40 lg:py-42">
-    <div class="flex items-center justify-between">
-      <div class="d invisible"></div>
-      <div class="px-5 lg:px-20 lg:w-6/12">
-         <h1 class="font font-extrabold text-3xl md:text-6xl text-white heading-text">NEXT-GEN</h1>
-         <h2 class="font font-extrabold text-3xl md:text-6xl text-white heading-text uppercase">Sport</h2>
-         <h2 class="font font-extrabold text-3xl md:text-6xl text-white heading-text uppercase ">marketing</h2>
-         <p class="font font-normal text-lg text-white">Neka Sports Help African sports talent have a fulfilled carrier through diligent and effective marketing and representation at the global stage.</p>
-      </div>
-    </div>
-   </div>
-  </div>
-   </slide>
- </carousel>
+  
+  
+  
+
      <Vision/>
      <div class="bg-gray-100 py-12">
        <Services/>
      </div>
-    <div class="py-6">
+    <div class="py-10">
        <NewsLetter/>
     </div>
      
@@ -92,7 +70,8 @@ export default {
        options: {
         loop: true,
         perPage: 1,
-        paginationEnabled: false
+        paginationEnabled: false,
+        autoplay:true
       }
      
     }
@@ -106,18 +85,11 @@ export default {
  background-position: top center;
  background-size: cover;
 }
-.slide-2{
- background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.288) 35%, rgba(3, 3, 3, 0.877) 98%),
-  url('/img/bg.jpg');
- background-position: top center;
- background-size: cover;
-}
 .heading-text{
     font-family: 'Bebas Neue', cursive;
     font-size: 4rem;
     margin-top: -2.5rem; 
 }
-
 .video-bg{
   background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.288) 35%, rgba(3, 3, 3, 0.877) 98%),
   url('/img/bg.jpg');
