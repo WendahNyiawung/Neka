@@ -3,7 +3,9 @@
       <div class="flex items-center justify-between">
         <!-- Header logo -->
         <div> 
+             <nuxt-link to="/">
               <img src="/img/logo.png" alt="" class="h-16 w-48">
+             </nuxt-link>
         </div>
 
         <!-- Mobile toggle -->
@@ -106,25 +108,32 @@
              <div> 
               <img src="/img/logo.png" alt="" class="h-14 md:h-24">
         </div>
+         
           </span>
 
           <ul class="divide-y font-sans z-30">
-            <li>
+          <span  @click="isOpen = false" class="flex w-full items-center  border-b">
+              <li>
               <nuxt-link to="/" @click="isOpen = false" class="my-4 inline-block"
                 >Home</nuxt-link
               >
             </li>
-            <li>
+          </span>
+          <span  @click="isOpen = false" class="flex w-full items-center  border-b">
+              <li>
               <nuxt-link to="/about" @click="isOpen = false" class="my-4 inline-block"
                 >About Us</nuxt-link
               >
             </li>
-          
-            <li>
+          </span>
+          <span  @click="isOpen = false" class="flex w-full items-center  border-b">
+              <li>
               <nuxt-link to="/contact" @click="isOpen = false" class="my-4 inline-block"
-                >Contact</nuxt-link
+                >Contact Us</nuxt-link
               >
             </li>
+          </span>
+        
 
           </ul>
 
