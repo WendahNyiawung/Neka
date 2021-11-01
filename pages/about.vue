@@ -8,11 +8,7 @@
           </div> -->
           <div class="px-5 lg:px-20 w-full lg:w-6/12">
             <img src="/img/about.png" alt="" class="" />
-            <p class="font font-normal text-lg text-white">
-              Neka Sports Help African sports talent have a fulfilled carrier
-              through diligent and effective marketing and representation at the
-              global stage.
-            </p>
+           
             <h1
               class="text-white font-primary text-3xl lg:text-5xl mt-5 lg:mt-16"
             >

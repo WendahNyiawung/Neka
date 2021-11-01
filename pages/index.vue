@@ -1,15 +1,21 @@
 <template>
 <div>
  <div class="bg-gray-200 slide-wrapper">
-    <div class="slide-1 h-126 lg:h-128 ">
+    <div class="slide-1">
    <div class="container mx-auto py-40 lg:py-42">
     <div class="flex items-center justify-between">
       <div class="d invisible"></div>
-      <div class="px-5 lg:px-20 lg:w-6/12">
-         <h1 class="font font-extrabold text-3xl md:text-6xl text-white heading-text">NEXT-GEN</h1>
-         <h2 class="font font-extrabold text-3xl md:text-6xl text-white heading-text uppercase">Sport</h2>
-         <h2 class="font font-extrabold text-3xl md:text-6xl text-white heading-text uppercase ">marketing</h2>
-         <p class="font font-normal text-lg text-white">Neka Sports Help African sports talent have a fulfilled carrier through diligent and effective marketing and representation at the global stage.</p>
+      <div class="px-5 lg:px-10 lg:w-6/12 pt-64 lg:pt-40">
+         <h1 class="font font-extrabold text-3xl md:text-6xl text-white heading-text-1"
+          data-aos="fade-down"
+           data-aos-delay="500"
+           data-aos-duration="1000"
+           >NEXT GENERATIONAL</h1>
+         <h2 class="font font-extrabold text-3xl md:text-6xl text-white heading-text-2 uppercase" 
+          data-aos="fade-up"
+             data-aos-duration="1000"
+              data-aos-delay="500">Sport marketing</h2>
+         <!-- <p class="font font-normal text-lg text-white">Neka Sports Help African sports talent have a fulfilled carrier through diligent and effective marketing and representation at the global stage.</p> -->
       </div>
     </div>
    </div>
@@ -79,16 +85,26 @@ export default {
 }
 </script>
 <style scoped>
+.slide-wrapper{
+  background-color: #F6F6F6;
+}
 .slide-1{
  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.288) 35%, rgba(3, 3, 3, 0.877) 98%),
-  url('/img/vision-4.jpg');
+  url('/img/bg.jpg');
  background-position: top center;
  background-size: cover;
+ height: 100vh;
 }
-.heading-text{
+.heading-text-1{
     font-family: 'Bebas Neue', cursive;
-    font-size: 4rem;
-    margin-top: -2.5rem; 
+    font-size: 2.2rem;
+    
+}
+.heading-text-2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.4rem;
+    margin-top: -1rem;
+    
 }
 .video-bg{
   background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.288) 35%, rgba(3, 3, 3, 0.877) 98%),
@@ -97,10 +113,15 @@ export default {
  background-size: cover;
 }
 @media (min-width: 768px) { 
-.heading-text{
+.heading-text-1{
     font-family: 'Bebas Neue', cursive;
-    font-size: 5rem;
-    margin-top: -2.5rem;  
+    font-size: 3.6rem;
+  
+}
+.heading-text-2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5.5rem;
+    margin-top: -1.5rem;  
 }
 
  }
