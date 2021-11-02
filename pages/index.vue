@@ -4,8 +4,8 @@
     <div class="slide-1">
    <div class="container mx-auto py-40 lg:py-42">
     <div class="flex items-center justify-between">
-      <div class="d invisible"></div>
-      <div class="px-5 lg:px-10 lg:w-6/12 pt-64 lg:pt-40">
+    
+      <div class="px-5 lg:px-20 lg:w-8/12 pt-48 lg:pt-40">
          <h1 class="font font-extrabold text-3xl md:text-6xl text-white heading-text-1"
           data-aos="fade-down"
            data-aos-delay="500"
@@ -17,6 +17,7 @@
               data-aos-delay="500">Sport marketing</h2>
          <!-- <p class="font font-normal text-lg text-white">Neka Sports Help African sports talent have a fulfilled carrier through diligent and effective marketing and representation at the global stage.</p> -->
       </div>
+        <div class="d invisible"></div>
     </div>
    </div>
   </div>
@@ -90,7 +91,7 @@ export default {
 }
 .slide-1{
  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.288) 35%, rgba(3, 3, 3, 0.877) 98%),
-  url('/img/bg.jpg');
+  url('/img/happy.jpg');
  background-position: top center;
  background-size: cover;
  height: 100vh;
@@ -107,11 +108,26 @@ export default {
     
 }
 .video-bg{
-  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.288) 35%, rgba(3, 3, 3, 0.877) 98%),
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.986) 35%, rgba(3, 3, 3, 0.877) 98%),
   url('/img/bg.jpg');
    background-position: top center;
  background-size: cover;
 }
+
+@media  (max-width: 640px) { 
+.heading-text-1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.1rem;
+  
+}
+.heading-text-2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.9rem;
+    margin-top: -1.2rem;  
+}
+
+ }
+
 @media (min-width: 768px) { 
 .heading-text-1{
     font-family: 'Bebas Neue', cursive;

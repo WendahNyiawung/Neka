@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto py-16">
-        <p class="vision-p text-2xl text-center px-4 lg:px-56"
+        <p class="vision-p  text-center px-4 lg:px-56"
             data-aos="fade-up"
              data-aos-duration="1000"
               data-aos-delay="500">
@@ -12,7 +12,7 @@
               data-aos-delay="500">
                 OUR VISION
             </h1>
-              <p class="vision-p text-2xl text-center px-4 lg:px-56 mt-10"
+              <p class="vision-p  text-center px-4 lg:px-56 mt-10"
                 data-aos="fade-up"
              data-aos-duration="1000"
               data-aos-delay="600">
@@ -51,8 +51,9 @@
 // </script>
 <style scoped>
 .vision-p{
-  font-family: 'Microsoft Yi Baiti';
+   font-family: 'Montserrat', sans-serif;
   color: #716F6F;  
+  font-size: 1rem;
 }
 .vision-heading{
     font-family: 'Organetto';

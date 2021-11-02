@@ -1,9 +1,10 @@
 <template>
     <nav class="navbar fixed inset-x-0 py-2 px-5 md:px-16 bg-transparent transition-colors duration-500" 
-    :class="{'bg-gray-900': scrollPosition > 50}">
+    :class="{'bg-gray-900': scrollPosition > 50}" data-aos="fade"
+             data-aos-duration="400">
       <div class="flex items-center justify-between">
         <!-- Header logo -->
-        <div> 
+        <div > 
              <nuxt-link to="/">
               <img src="/img/about.png" alt="" class="h-16 w-48">
              </nuxt-link>
